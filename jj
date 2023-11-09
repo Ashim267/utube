@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nightmare by Ani Choying Dolma</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f2f2f2;
+        }
+
+        #video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio for responsive video */
+            margin-bottom: 20px;
+        }
+
+        #vid {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        #artist-details {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        #artist {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="video-container">
+        <iframe id="vid" src="https://www.youtube.com/embed/wlaZSx6tqRo?si=RBytAQ_wtBKDgUXa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+    <div id="artist-details">
+        <img id="artist" src="ani.png" alt="Ani Choying Dolma">
+        <h1>Nightmare</h1>
+        <p><strong>Released:</strong> 2015</p>
+        <p><strong>Album:</strong> Music</p>
+        <p><strong>Artist:</strong> Ani Choying Dolma</p>
+        <p><strong>Genres:</strong> Electronic dance music, Electro, Contemporary R&B, Pop</p>
+        <p><strong>Views on VT:</strong> 820 K</p>
+    </div>
+
+</body>
+</html>
